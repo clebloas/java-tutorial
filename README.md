@@ -34,6 +34,10 @@ Vérifier qu'une pomme peut être ajoutée.
 ## Héritage et classe abstraite
 Créer une classe fruit qui est étendue par les classes Orange, Banane et Pomme
 
+## Est-ce qu'une pomme est une banane ? 
+On considère que deux pommes sont identiques (dans le but de l'exercice). Une pomme ne peut être égale qu'à une autre pomme. 
+(Java : implémentation de equals et Hashcode)
+
 ## Tableau et collection
 Vérifier que l'on peut ajouter plusieurs pommes et les récupérer.
 Le panier peut maintenant contenir des fruits
@@ -49,4 +53,30 @@ Vous vous doutez des contraintes à mettre :D.
 Le panier de fruit peut maintenant contenir des fruits et des légumes
 
 ## C'est pas le tout mais j'ai faim
-Créer une classe cuisine qui possède un panier de fruit
+Créer une classe personne qui peut manger un élément comestible.
+
+## Aaahh !! Mais c'est pas bon ca ! Ca bouge  :s
+Créer une exception : VereuseException
+L'exception est lancée lorsque qu'une personne mange une pomme verreuse.
+
+## C'est pas le ton mais le panier est vide :(
+Créer un magasin que l'on peut aussi appeler FruitFactory
+Elle permet d'acheter des fruits.
+
+## C'est meilleur cuit
+Créer une cocotte qui permet de faire cuire des légumes. 
+Pour cuir les aliments, il faut de l'eau, les légumes. Puis faire, puis faire cuir.
+On obtient une soupe.
+
+## Cookeo, la cocote qui facilite la vie.
+Créer une cocotte cookeo qui permet de faire la même chose qu'une cocotte mais plus facile d'utilisation.
+(Utiliser le pattern fluent builder)
+
+## Les coulisses de l'entrepôt 
+Un entrepôt permet de trier un ensemble de fruit dans des paniers spécifiques.
+(Utilisation des streams)
+
+## Des fruits de saison
+On va ajouter une saison à chaque comestible. Une saison est un énuméré.
+
+Bon appétit ! 
