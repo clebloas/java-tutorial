@@ -1,4 +1,4 @@
-# L'objectif de ce projet est d'apprendre à développer en Java et plus particulièrement de découvrir la programmation orienté objet
+# L'objectif de ce projet est d'apprendre à développer en Java et plus particulièrement de découvrir la programmation orientée objet
 
 Pour se faire, nous allons modéliser une corbeille à fruit (dans un premier une corbeille de pommes)
 
